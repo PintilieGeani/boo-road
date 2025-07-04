@@ -3,7 +3,25 @@
 }
 .banner {
     width: 100%;
-    height: 30vh;
-    object-fit: fill;
+    height: 50vh;
+    object-fit: cover;
     object-position: center;
+}
+
+.circle-window {
+  width: 300px;        /* dimensione oblò, cambia come vuoi */
+  height: 300px;       /* dimensione oblò */
+  border-radius: 50%;  /* rende il div circolare */
+  overflow: hidden;    /* taglia l'immagine fuori dal cerchio */
+  border: 5px solid #333; /* bordo oblò (opzionale) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* fa adattare l'immagine al cerchio senza distorsioni */
+  display: block;
 }

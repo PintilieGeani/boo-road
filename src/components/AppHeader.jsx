@@ -10,10 +10,6 @@ function AppHeader(){
             title: "Viaggi",
             url: "/Viaggi"
         },
-        {
-            title: "Dettagli Viaggi",
-            url: "/Viaggi/:id"
-        },
         
     ]
 

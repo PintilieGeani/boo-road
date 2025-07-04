@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import viaggiInItalia from "../DataViaggi.js";
+import viaggiInItalia from "../data/DataViaggi.js";
 
 const Viaggi = () => {
     return (
